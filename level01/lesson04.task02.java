@@ -10,6 +10,7 @@ public class Solution
     public static void main(String[] args)
     {
         String s = "JavaRush. Learn once - use anywhere";
+        
         print5Times(s);
         print5Times(s);
     }
