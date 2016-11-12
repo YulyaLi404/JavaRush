@@ -18,6 +18,7 @@ public class Solution
     {
         String s = "Я согласен на зарплату ";
         String a = "/месяц ";
+        String b = "$";
         
         int num1 = 800;
         int num2 = 1500;
@@ -27,11 +28,11 @@ public class Solution
         
         System.out.println("Меня зовут Амиго.");
         
-        System.out.println(s + "$" + num1 + a + "в первый год.");
-        System.out.println(s + "$" + num2 + a + "во второй год.");
-        System.out.println(s + "$" + num3 + a + "в третий год.");
-        System.out.println(s + "$" + num4 + a + "в четвертый год.");
-        System.out.println(s + "$" + num5 + a + "в пятый год.");
+        System.out.println(s + b + num1 + a + "в первый год.");
+        System.out.println(s + b + num2 + a + "во второй год.");
+        System.out.println(s + b + num3 + a + "в третий год.");
+        System.out.println(s + b + num4 + a + "в четвертый год.");
+        System.out.println(s + b + num5 + a + "в пятый год.");
         
         System.out.println("Поцелуй мой блестящий металлический зад!");
     }
