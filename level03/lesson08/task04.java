@@ -21,7 +21,7 @@ public class Solution
         //System.out.print("Введите имя кого спонсируют: ");
         String name2 = reader.readLine();
 
-        System.out.println(name1 + " проспонсировал " + name2 + " и она стала известной певицей.");
+        System.out.println(name1 + " проспонсировал " + name2 + ", и она стала известной певицей.");
     }
 }
 
