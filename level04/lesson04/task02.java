@@ -6,26 +6,25 @@ package com.javarush.test.level04.lesson04.task02;
 Подсказка:  используйте метод public static int abs(int a), который возвращает абсолютную величину числа.
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    
+    public static void main(String[] args) {
+        
         closeToTen(8,11);
         closeToTen(14,7);
     }
 
-    public static void closeToTen(int a, int b)
-    {
+    public static void closeToTen(int a, int b) {
+        
         if((10 - abs(a)) < (10 - abs(b))){
             System.out.println(a);
         } else {
             System.out.println(b);
         }
-
     }
 
-    public static int abs(int a)
-    {
+    public static int abs(int a) {
+        
         if (a < 0) {
             return -a;
         } else {
