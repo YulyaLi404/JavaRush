@@ -16,8 +16,7 @@ public class Solution {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        int s = 0;
-        int a;
+        int a, s = 0;
 
         for (int i = 1; i <= 3; i++) {
 
