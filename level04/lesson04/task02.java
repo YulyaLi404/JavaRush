@@ -16,7 +16,7 @@ public class Solution {
 
     public static void closeToTen(int a, int b) {
         
-        if((10 - abs(a)) < (10 - abs(b))){
+        if(abs(10 - a) < abs(10 - b)){
             System.out.println(a);
         } else {
             System.out.println(b);
@@ -36,6 +36,6 @@ public class Solution {
 /* Output:
 
 11
-14
+7
 
 */
