@@ -30,7 +30,7 @@ public class Solution {
         if (a == c) {
             System.out.println(a + " " + c);
         } else
-        if(c == b) {
+        if (c == b) {
             System.out.println(c + " " + b);
         }
     }
