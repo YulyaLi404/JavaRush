@@ -30,7 +30,7 @@ public class Solution {
         if (light % 10 == 3 || light % 10 == 8){
             System.out.println("желтый");
         } else
-        if (light % 10 == 4 || light % 10== 9) {
+        if (light % 10 == 4 || light % 10 == 9) {
             System.out.println("красный");
         } else {
             System.out.println("зеленый");
