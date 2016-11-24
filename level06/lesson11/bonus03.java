@@ -44,6 +44,26 @@ public class Solution {
             System.out.print(num[i] + "  ");
         }
     }
+    
+    /* for (int k = 0; k < sort.length - 1; k++) // сортировка "пузырьком", цикл внутри цикла
+        {
+            for (int i = 0; i < sort.length - 1; i++)
+            {
+                int tmp = 0;
+                if (sort[i] > sort[i + 1])
+                {
+                    tmp = sort[i];
+                    sort[i] = sort[i + 1];
+                    sort[i + 1] = tmp;
+                }
+
+            }
+        }
+            for (int i = 0; i < sort.length; i++) //выводим цикл на печать
+            {
+                System.out.println(sort[i]);
+            }
+    */
 }
 
 /* Output:
