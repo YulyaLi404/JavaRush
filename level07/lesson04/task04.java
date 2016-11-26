@@ -2,7 +2,6 @@ package com.javarush.test.level07.lesson04.task04;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 /* Массив из чисел в обратном порядке
 1. Создать массив на 10 чисел.
@@ -23,7 +22,11 @@ public class Solution {
             mas[i] = Integer.parseInt(reader.readLine());
         }
 
-        System.out.println(Arrays.toString(reverse(mas)));
+        reverse(mas);
+
+        for(int i = 0; i < 10; i++){
+            System.out.println(mas[i]);
+        }
     }
 
     private static int[] reverse(int[] num) {
@@ -42,13 +45,23 @@ public class Solution {
 1
 2
 3
-4
-5
-6
-4
 44
 3
+3
+22
+3
+3
 4
-[4, 3, 44, 4, 6, 5, 4, 3, 2, 1]
+
+4
+3
+3
+22
+3
+3
+44
+3
+2
+1
 
 */
